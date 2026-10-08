@@ -1,0 +1,45 @@
+EduProc – Hydreringsreaktor 1
+Färdig för GitHub Pages. Version 2026-10-08.
+
+FILER
+index.html är hela simulatorn. All grafik, formgivning och programkod
+finns i denna enda fil. Inga installationer eller extra filer behövs.
+Las_mig.txt är denna anvisning och behövs inte för att köra simulatorn.
+
+PUBLICERA PÅ GITHUB PAGES
+1. Skapa ett nytt repository, exempelvis eduproc-hydreringsreaktor.
+2. Välj Add file > Upload files och ladda upp index.html i rotmappen.
+   Du kan också lägga upp denna anvisning.
+3. Spara uppladdningen med Commit changes.
+4. Öppna Settings > Pages.
+5. Under Build and deployment: välj Deploy from a branch.
+6. Välj main och /(root), och klicka på Save.
+7. Vänta tills GitHub visar webbplatsens adress på samma sida.
+
+Om du i stället använder mappen docs i ett befintligt repository:
+lägg index.html i docs och välj main och /docs i Pages-inställningarna.
+Filnamnet ska vara index.html, inte index.html.txt.
+
+OFFLINE
+Dubbelklicka på index.html för att öppna simulatorn i webbläsaren.
+Själva simulatorn fungerar utan internet. Länken till bakgrundsartikeln
+kräver internet.
+
+ANVÄNDNING
+Pausad: reglagen ändrar temperaturprofil och resultat direkt.
+Starta: kör simuleringen med tidsfördröjning.
+Stega 1 min: för simuleringen en minut framåt och pausa.
+Återställ: återgå till startvärdena.
+Temperaturprofilens y-axel anpassas automatiskt med minst 60 °C spann.
+På dator ligger Driftinställningar kvar när du rullar sidan.
+
+MODELL
+Tre lika stora katalysatorbäddar och två quenchsteg.
+Aromatreduktionen beror endast på total WABT.
+Tryck, matningsflöde och katalysatoraktivitet hålls konstanta.
+Alla modellvärden är fiktiva undervisningsvärden.
+Inga dolda originaldata eller originalbilder ingår.
+Detaljerade antaganden och elevuppgifter finns i simulatorn.
+
+GitHubs publiceringsanvisning:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
